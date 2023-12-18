@@ -27,9 +27,16 @@
 </head>
 
 <body class="antialiased bg-[#F6F7F9] font-sans">
-  <main class="my-32">
 
-    <div class="grid lg:grid-cols-12 lg:gap-x-[30px] mx-auto max-w-7xl px-5 lg:px-8">
+  <div class="relative px-5 mx-auto max-w-7xl lg:px-8">
+    <div
+      class="w-[50vw] aspect-square bg-[#34C98E] pointer-events-none absolute -top-12 left-0 rounded-full blur-[600px] z-0">
+    </div>
+  </div>
+
+  <main class="relative z-20 my-32">
+    <div class="grid lg:grid-cols-12 lg:gap-x-[30px] mx-auto max-w-7xl px-5 lg:px-8 relative">
+
       <div class="lg:col-span-7 text-[#141516]">
         <h1 class="font-bold text-[64px] leading-[72px] tracking-[-0.64px]">Decentralised EO Manifesto</h1>
         <div class="text-[19px] leading-[26px] mt-6">
@@ -48,8 +55,8 @@
       </div>
     </div>
 
-    <div className="mx-auto max-w-7xl mt-24">
-      <img src="/post.png" alt="" />
+    <div className="">
+      <img class="w-full mx-auto mt-24 rounded-xl max-w-7xl" src="/post.png" alt="" />
     </div>
 
     <div class="lg:grid lg:grid-cols-12 lg:gap-x-[30px] mx-auto max-w-7xl px-5 lg:px-8 mt-36 lg:gap-y-[60px] space-y-8">
